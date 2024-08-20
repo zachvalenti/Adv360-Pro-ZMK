@@ -32,133 +32,133 @@
     };
 
     macros {
-        magnet_Left50: magnet_Left50 {
+        macro_magnet_Left50: magnet_Left50 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LEFT))>;
             label = "MAGNET_LEFT50";
         };
 
-        magnet_Right50: magnet_Right50 {
+        macro_magnet_Right50: magnet_Right50 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(RIGHT))>;
             label = "MAGNET_RIGHT50";
         };
 
-        magnet_LeftFiveSixths: magnet_LeftFiveSixths {
+        macro_magnet_LeftFiveSixths: magnet_LeftFiveSixths {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(COMMA))>;
             label = "MAGNET_LEFTFIVESIXTHS";
         };
 
-        magnet_RightFiveSixths: magnet_RightFiveSixths {
+        macro_magnet_RightFiveSixths: magnet_RightFiveSixths {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(PERIOD))>;
             label = "MAGNET_RIGHTFIVESIXTHS";
         };
 
-        magnet_LeftOneSixths: magnet_LeftOneSixths {
+        macro_magnet_LeftOneSixths: magnet_LeftOneSixths {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(NUMBER_1))>;
             label = "MAGNET_LEFTONESIXTHS";
         };
 
-        magnet_RightOneSixths: magnet_RightOneSixths {
+        macro_magnet_RightOneSixths: magnet_RightOneSixths {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(NUMBER_6))>;
             label = "MAGNET_RIGHTONESIXTHS";
         };
 
-        magnet_LeftNextMonitor: magnet_LeftNextMonitor {
+        macro_magnet_LeftNextMonitor: magnet_LeftNextMonitor {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LG(LEFT)))>;
             label = "MAGNET_LEFTNEXTMONITOR";
         };
 
-        magnet_RightNextMonitor: magnet_RightNextMonitor {
+        macro_magnet_RightNextMonitor: magnet_RightNextMonitor {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LG(RIGHT)))>;
             label = "MAGNET_RIGHTNEXTMONITOR";
         };
 
-        magnet_Left33: magnet_Left33 {
+        macro_magnet_Left33: magnet_Left33 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(D))>;
             label = "MAGNET_LEFT33";
         };
 
-        magnet_Center33: magnet_Center33 {
+        macro_magnet_Center33: magnet_Center33 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(F))>;
             label = "MAGNET_CENTER33";
         };
 
-        magnet_Right33: magnet_Right33 {
+        macro_magnet_Right33: magnet_Right33 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(G))>;
             label = "MAGNET_RIGHT33";
         };
 
-        magnet_Right66: magnet_Right66 {
+        macro_magnet_Right66: magnet_Right66 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(LA(T))>;
             label = "MAGNET_RIGHT66";
         };
 
-        magnet_Left66: magnet_Left66 {
+        macro_magnet_Left66: magnet_Left66 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(LA(E))>;
             label = "MAGNET_LEFT66";
         };
 
-        magnet_Center: magnet_Center {
+        macro_magnet_Center: magnet_Center {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(C))>;
             label = "MAGNET_CENTER";
         };
 
-        magnet_Maximize: magnet_Maximize {
+        macro_magnet_Maximize: magnet_Maximize {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(RETURN))>;
             label = "MAGNET_MAXIMIZE";
         };
 
-        magnet_TopRightQuarter: magnet_TopRightQuarter {
+        macro_magnet_TopRightQuarter: magnet_TopRightQuarter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(I))>;
             label = "MAGNET_TOPRIGHTQUARTER";
         };
 
-        magnet_TopLeftQuarter: magnet_TopLeftQuarter {
+        macro_magnet_TopLeftQuarter: magnet_TopLeftQuarter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(U))>;
             label = "MAGNET_TOPLEFTQUARTER";
         };
 
-        magnet_BottomRightQuarter: magnet_BottomRightQuarter {
+        macro_magnet_BottomRQuarter: magnet_BottomRightQuarter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(K))>;
             label = "MAGNET_BOTTOMRIGHTQUARTER";
         };
 
-        magnet_BottomLeftQuarter: magnet_BottomLeftQuarter {
+        macro_magnet_BottomLQuarter: magnet_BottomLeftQuarter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(J))>;
@@ -191,11 +191,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                                  &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                                   &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none      &trans      &trans        &trans     &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &kp HOME      &kp PG_UP                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &kp SPACE  &kp RETURN  &kp END       &kp PG_DN  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1                        &kp F2                         &kp F3                         &kp F4                  &kp F5                         &kp F6                          &tog 1                                                  &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&macro_magnet_TopLeftQuarter  &macro_magnet_TopRightQuarter  &trans                         &macro_magnet_Left33    &macro_magnet_Right33          &trans                          &none                                                   &none   &trans  &trans  &trans  &trans   &trans   &trans
+&macro_magnet_BottomRQuarter  &macro_magnet_LeftFiveSixths   &macro_magnet_RightFiveSixths  &macro_magnet_Left50    &macro_magnet_Right50          &macro_magnet_Maximize          &trans     &trans      &trans        &trans     &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
+&macro_magnet_BottomRQuarter  &macro_magnet_LeftOneSixths    &macro_magnet_RightOneSixths   &macro_magnet_Center33  &macro_magnet_LeftNextMonitor  &macro_magnet_RightNextMonitor                         &kp HOME      &kp PG_UP                  &trans  &trans  &trans  &trans   &trans   &trans
+&trans                        &trans                         &macro_magnet_Left66           &macro_magnet_Center    &macro_magnet_Right66                                          &kp SPACE  &kp RETURN  &kp END       &kp PG_DN  &trans  &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
